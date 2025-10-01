@@ -18,12 +18,12 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-var wssv = new WebSocketServer("ws://localhost:8080");
+var wssv = new WebSocketServer("ws://0.0.0.0:8080");
 wssv.AddWebSocketService<ChatBehavior>("/ws");
 
 // Khởi động server
 wssv.Start();
-app.Logger.LogInformation("Server started on ws://localhost:8080");
+app.Logger.LogInformation("Server started on ws://0.0.0.0:8080");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
