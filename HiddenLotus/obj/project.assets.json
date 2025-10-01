@@ -8059,11 +8059,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projects\\HiddenLotus\\HiddenLotus\\HiddenLotus.csproj",
+      "projectUniqueName": "E:\\Projects\\TestServer\\HiddenLotus\\HiddenLotus.csproj",
       "projectName": "HiddenLotus",
-      "projectPath": "E:\\Projects\\HiddenLotus\\HiddenLotus\\HiddenLotus.csproj",
+      "projectPath": "E:\\Projects\\TestServer\\HiddenLotus\\HiddenLotus.csproj",
       "packagesPath": "C:\\Users\\quang\\.nuget\\packages\\",
-      "outputPath": "E:\\Projects\\HiddenLotus\\HiddenLotus\\obj\\",
+      "outputPath": "E:\\Projects\\TestServer\\HiddenLotus\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
